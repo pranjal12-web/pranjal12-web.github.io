@@ -1,0 +1,39 @@
+*{
+    margin: 0em;
+    padding: 0em;
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(120deg, #3494E6, #EC6EAD);
+    font-family: 'PT Sans', sans-serif;
+}
+.loginbox{
+    background-color: rgba(0, 0, 0, 0.466);
+    width: 320px;
+    color: blanchedalmond;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+}
+.loginbox input, select, textarea{
+    border: none;
+    background-color: rgba(190, 185, 192, 0.144);
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.logo{
+    width: 100px;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+h1{
+    margin-top: 30px;
+}

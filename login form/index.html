@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login form</title>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="loginbox">
+      <img src="https://www.kindpng.com/picc/b/235/2350682.png" alt="" class="logo">
+      <h1>Login Form</h1><br>
+    <form action="">
+      <label for="User">
+        Username:
+      </label>
+      <input type="text" id="User" name="user" /><br /><br />
+      <label for="pass">
+        Password:
+      </label>
+      <input type="password" id="pass" name="pass" /><br /><br />
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">
+        Male </label
+      ><br />
+
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">
+        Female </label
+      ><br /><br />
+      <label for="birthday">
+          Birthdate:
+
+      </label>
+      <input type="date" id="birthday" name="birthday"><br><br>
+      <label for="message">
+          Enter Your message:
+      </label><br>
+      <textarea name="message" id="message" cols="20" rows="05"></textarea><br><br>
+      <select name="browser" id="browser">
+           <option value="chrome" selected> Google chrome</option>
+           <option value="firefox">Mozilla firefox</option>
+           <option value="edge">Microsoft edge</option>
+           <option value="safari">Apple safari</option>
+
+      </select><br><br>
+       <input type="submit" value="Login" /><br><br>
+      <input type="reset" value="reset this form" >
+    </form>
+    </div>
+  </body>
+</html>
