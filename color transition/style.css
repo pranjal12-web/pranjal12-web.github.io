@@ -1,0 +1,30 @@
+.image{
+    background-color: white;
+    animation: random 30s infinite;
+}
+@keyframes random{
+    0%{
+        background-color: black;
+    }
+    15%{background-color: blue;}
+    30%{background-color: red;}
+    45%{background-color: green;}
+    60%{background-color: yellow;}
+    75%{background-color: blueviolet;}
+    90%{background-color: violet;}
+}
+div{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    transition: all 0.3s ease-in;
+}
+.center{
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
