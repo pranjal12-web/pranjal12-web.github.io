@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<title>QUIZ</title>
+<style type="text/css">
+ button{
+     font-size:40px;
+     background-color: yellow;
+     border: 10px;
+     margin: 200px;
+      border-radius: 10px;
+      border-color: blue;
+      color: red;
+      animation: random 10s infinite;
+
+
+
+ }
+ @keyframes random{
+     10%{
+         border-color: aqua;
+         color: brown;
+
+     }
+     20%{
+         border-color: darkblue;
+         color: darkorange;
+     }
+     30%{
+         border-color: darkorange;
+         color: darkred;
+     }
+     40%{
+         border-color: deepskyblue;
+         color: forestgreen;
+
+     }
+     50%{
+         border-color: fuchsia;
+         color: greenyellow;
+     }
+ }
+ button:hover{
+     cursor: pointer;
+ }
+</style>
+<body>
+
+
+   <center>
+       <button onclick="quiz()">START QUIZ!!!</button>
+   </center>
+   <script type="text/javascript" src="index.js"></script>
+
+</body>
+</html>
